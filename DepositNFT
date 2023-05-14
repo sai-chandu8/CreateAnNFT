@@ -10,7 +10,7 @@ transaction (recp:Address){
            .borrow<&CryptoPoops.Collection{NonFungibleToken.CollectionPublic}>()
            ??panic("No collection present ")
 
-  ref.deposit(token: <-nft.createNFT(name: "Saichandhu", favouriteFood: "milk", luckyNumber:54))
+  ref.deposit(token: <-nft.createNFT(name: "JacobT", favouriteFood: "milk", luckyNumber:54))
  
     }
 
